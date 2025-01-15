@@ -20,7 +20,7 @@ st.info("ML Prediction APP to Predict Number of Copies to be Sold in Millions")
 def load_data():
   #Exception handling
   try:  
-    df=pd.read_csv("https://raw.githubusercontent.com/snadiaf/CD_Ayaan/refs/heads/main/revised88.csv")
+    df=pd.read_csv("https://raw.githubusercontent.com/snadiaf/CS_Ayaan/refs/heads/main/revised88.csv")
     return df
   except FileNotFoundError:
     print("File not found.")
