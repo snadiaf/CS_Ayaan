@@ -14,7 +14,7 @@ from sklearn.metrics import r2_score
 #Creating the title of the pahe
 st.title("Welcome to the Fortune Reader of Games!")
 #Showing information about the page
-st.info("ML Prediction APP to Predict Number of Copies to be Sold in Millions")
+st.info("ML Prediction APP to Predict total Sale of Copies in Millions")
 
 #Function to load data
 def load_data():
